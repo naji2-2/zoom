@@ -1,6 +1,20 @@
 {
   "name": "zoom",
   "version": "1.0.0",
-  "author": "Zoom Clone using WevRTC and Websockets",
-  "license": "ISC"
+  "author": "Zoom Clone using NodeJS, WevRTC and Websockets",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.3"
+  }
 }
